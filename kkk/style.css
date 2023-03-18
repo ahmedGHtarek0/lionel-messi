@@ -1,0 +1,98 @@
+.button {
+    background-color: #daa520;
+    margin-left: 1460px;
+    
+}
+.pp{
+    background-color: black;
+align-items: center;
+text-align: center;
+
+}
+.zz{
+    background-color:black;
+    text-align: center;
+    color: peru;
+    position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+.div4{
+    
+    text-align: center;
+    color: white;
+
+  width: 200px;
+  margin-left: 640px;
+
+}
+.cc{
+    color: peru;
+    align-items: center;
+    text-align: center;
+}
+
+.mm{
+    text-align: center;
+    color: gold;
+ padding: 50px;
+
+ width: 200px;
+align-items: center;
+margin-left: 600px;
+}
+.ss{
+    text-align: center;
+    color: honeydew;
+    padding: 50px;
+ width: 200px;
+padding-top: 40px;
+align-items: center;
+margin-left: 600px;
+}
+.rr{
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+padding-top: 40px;
+align-items: center;
+text-align: center;
+width: 40%;
+  margin: 40px auto 60px;
+}
+.qq{
+    color: peru;
+    align-items: center;
+    text-align: center;
+}
+.oo :hover{
+    background-color: powderblue;
+    background-color: powderblue;
+    /* -webkit-border-radius: 8;
+    -moz-border-radius: 8; */
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+    
+    text-align: center;
+
+}
+
+
+.vv {
+    background-color: bisque;
+    text-align: center;
+ border-radius: 50px;   
+ font-family: 'Montserrat', sans-serif;
+ font-size: 20px;
+ margin-bottom: 0px ;
+ margin-bottom: 90px;
+ color: black;
+ margin-right: 500px;
+margin-left:500px ;
+}

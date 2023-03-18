@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	background: #685f5f;
+}
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+  background-color: #302d2d9e;
+  padding: 15px;
+  border-radius: 7px;
+}
+.login-box h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.login-box .user-box{
+	position: relative;
+}
+.login-box .user-box input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+}
+.login-box .user-box label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	pointer-events: none;
+	transition: 0.5s;
+}
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label{
+	top: -20px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+.login-box form a{
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-top: 40px;
+	letter-spacing: 4px;
+}
+.login-box a:hover{
+	background: #03a9f4;
+	color: white;
+	/* border-radius: 5px;*/
+	box-shadow: 
+        0 0 5px #03a9f4,
+				0 0 25px #03a9f4,
+				0 0 50px #03a9f4,
+				0 0 100px #03a9f4;
+}
+.login-box a span{
+	position: absolute;
+	display: block;
+}
+.login-box a span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#03a9f4);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+	0%{
+		left: -100%;
+	}
+	50%,100%{
+		left: 100%;
+	}
+}
+.login-box a span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width:100%;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03a9f4);
+  animation: animate2 1s linear infinite;
+  }
+  @keyframes animate2 {
+  0%{
+  top: -100%;
+  }
+  50%,100%{
+  top: 100%;
+  }
+  }
+  .login-box a span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03a9f4);
+  animation: animate3 1s linear infinite;
+  }
+  @keyframes animate3 {
+  0%{
+  right: -100%;
+  }
+  50%,100%{
+  right: 100%;
+  }
+  }
+  .login-box a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#03a9f4);
+  animation: animate4 1s linear infinite;
+  }
+  @keyframes animate4 {
+  0%{
+  bottom: -100%;
+  }
+  50%,100%{
+  bottom: 100%;
+  }
+}
